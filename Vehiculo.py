@@ -22,7 +22,7 @@ class Vehiculo():
 
     def registrar_vehiculo(self):
         fvehiculos = open("vehiculos.txt", "a")
-        fvehiculos.write("\n"+str(self.id)+"\t"+self.tipo+"\t"+self.marca+"\t"+self.modelo+"\t"+str(self.anio)+"\t"+str(self.motor)+"\t"+self.color+"\t"+str(self.kilometros)+"\t"+str(+self.potencia)+"\t"+self.transmision+"\t"+str(self.puertas)+"\t"+self.combustible+"\t"+str(self.monto)id+"\n")
+        fvehiculos.write("\n"+str(self.id)+"\t"+self.tipo+"\t"+self.marca+"\t"+self.modelo+"\t"+str(self.anio)+"\t"+str(self.motor)+"\t"+self.color+"\t"+str(self.kilometros)+"\t"+str(+self.potencia)+"\t"+self.transmision+"\t"+str(self.puertas)+"\t"+self.combustible+"\t"+str(self.monto)+"\n")
         fvehiculos.close()
 
     def eliminar_vehiculo(self):
